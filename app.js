@@ -225,6 +225,7 @@ const getObjGoodDiv = event => {
    ARR_KRONA.push(obj);
    localStorage.removeItem(KRONA_KEY);
    saveState();
+   getValueResItems()
 };
 
 const getObjGoodDivTwo = event => {
@@ -234,7 +235,8 @@ const getObjGoodDivTwo = event => {
    let li = createGoodDiv(obj);
    goodsKonigin.innerHTML += li;
    ARR_KONIGIN.push(obj);
-   saveStateTwo()
+   saveStateTwo();
+   getValueResItemsTwo()
 };
 
 
@@ -249,6 +251,7 @@ const removeGoodDiv = event => {
       ARR_KRONA.push(val);
    });
    saveState();
+   getValueResItems()
 };
 
 const removeGoodDivTwo = event => {
@@ -261,6 +264,7 @@ const removeGoodDivTwo = event => {
       ARR_KONIGIN.push(val);
    });
    saveStateTwo();
+   getValueResItemsTwo()
 };
 
 function saveState(){
@@ -323,14 +327,14 @@ function clearResultKrona(){
    goodsKrona.innerHTML = '';
    ARR_KRONA = [];
    localStorage.removeItem(KRONA_KEY);
-   
+   getValueResItems()
 };
 
 function clearResultKronaTwo(){
    goodsKonigin.innerHTML = '';
    ARR_KONIGIN = [];
    localStorage.removeItem(KONIGIN_KEY);
-  
+   getValueResItemsTwo()
 };
 
 function btnsHidden(){
