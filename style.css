@@ -120,7 +120,7 @@ ul, li {
 }
 
 .selectes-item button{
-   font-size: 14px;
+   font-size: 12px;
    padding: 5px;
    text-transform: uppercase;
    font-weight: 600;
@@ -132,7 +132,7 @@ ul, li {
    -moz-border-radius: 10px;
    -ms-border-radius: 10px;
    -o-border-radius: 10px;
-   width: 180px;
+   width: 160px;
    height: 60px;
    line-height: 1.5;
    letter-spacing: 1px;
