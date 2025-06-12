@@ -148,6 +148,17 @@ function getValueResItems(){
  <li>МИНИ-ПЕЧИ<span>${KR_PECHS.length}</span><span>${SUM_PECHS}</span></li>
  <li>РАЗНАЯ МЕЛКОБЫТОВАЯ<span>${KR_MBTS.length}</span><span>${SUM_MBTS}</span></li>
  `;
+ function getSum(val, sum){
+  
+   resulBottomtKrona.innerHTML = `
+   <div class="result-count">Количество : <span>${val}</span> </div>
+   <div class="result-sum">Сумма :<span>${sum}</span></div>
+   `;
+}
+
+ let summaKrona = ARR_KRONA.reduce((acc, item)=> acc + +item.price, 0);
+ let countResultKrona = ARR_KRONA.length;
+ getSum(countResultKrona, summaKrona);
 };
 
 function getValueResItemsTwo(){
@@ -171,6 +182,16 @@ function getValueResItemsTwo(){
  <li>ДУХОВЫЕ ШКАФЫ<span>${KG_DUHS.length}</span><span>${SUM_DUHS}</span></li>
  <li>СВЧ ВСТРАИВАЕМЫЕ<span>${KG_VSTRSVCHS.length}</span><span>${SUM_VSTRSVCHS}</span></li>
  `;
+ function getSumTwo(val, sum){
+   resulBottomtKonigin.innerHTML = `
+   <div class="result-count">Количество : <span>${val}</span> </div>
+   <div class="result-sum">Сумма :<span>${sum}</span></div>
+   `
+};
+
+let summaKonigin = ARR_KONIGIN.reduce((acc, item)=> acc + +item.price, 0);
+ let countResultKonigin = ARR_KONIGIN.length;
+ getSumTwo( countResultKonigin, summaKonigin);
 }
 
 
@@ -290,36 +311,6 @@ function getStateTwo(){
  selectKonigin.addEventListener('click', getObjGoodDivTwo);
  goodsKrona.addEventListener('dblclick', removeGoodDiv);
  goodsKonigin.addEventListener('dblclick', removeGoodDivTwo);
-
-
-
- //localStorage.clear()
-
- //========================================
-
-
- 
-function getSum(val, sum){
-   resulBottomtKrona.innerHTML = `
-   <div class="result-count">Количество : <span>${val}</span> </div>
-   <div class="result-sum">Сумма :<span>${sum}</span></div>
-   `
-}
-
-function getSumTwo(val, sum){
-   resulBottomtKonigin.innerHTML = `
-   <div class="result-count">Количество : <span>${val}</span> </div>
-   <div class="result-sum">Сумма :<span>${sum}</span></div>
-   `
-}
-
- let summaKrona = ARR_KRONA.reduce((acc, item)=> acc + +item.price, 0);
- let countResultKrona = ARR_KRONA.length;
- getSum(countResultKrona, summaKrona);
-
- let summaKonigin = ARR_KONIGIN.reduce((acc, item)=> acc + +item.price, 0);
- let countResultKonigin = ARR_KONIGIN.length;
- getSumTwo( countResultKonigin, summaKonigin);
 
  //=================== clear and print
 
