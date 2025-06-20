@@ -273,16 +273,35 @@ export const svch = [
 ];
 
 export const pechi = [
-   {name: 'OFEN 19 BL', price: 400},
-   {name: 'OFEN 28 BL', price: 400},
-   {name: 'OFEN 35 BL', price: 400},
-   {name: 'OFEN 28 BLS', price: 600},
-   {name: 'OFEN 35 BLS', price: 600}
+   {name: 'OFEN 10 BL', price: 150},
+   {name: 'OFEN 19 BL', price: 200},
+   {name: 'OFEN 28 BL', price: 300},
+   {name: 'OFEN 35 BL', price: 300},
+   {name: 'OFEN 45 BL', price: 400},
+   {name: 'OFEN 28 BLS', price: 300},
+   {name: 'OFEN 35 BLS', price: 300}
+  
 ];
 
 export const mbt = [
-   {name: 'Digitaler Black 1,5л эл.чайник', price: 250},
-   {name: 'Digitaler Black тостер', price: 250},
-   {name: 'EXPRESSO KREM01 INOX кофеварка', price: 250}
+   {name: 'Ч-к Digitaler Black 1,5л', price: 150},
+   {name: 'Ч-к Digitaler Glas Licht 1,7л (KRWK05)', price: 150},
+   {name: 'Ч-к Digitaler Inox 1,7л (KRWK02)', price: 150},
+   {name: 'Ч-к Digitaler Inox Licht 1,7л (KRWK04)', price: 150},
+   {name: 'Ч-к Digitaler Intelligent 1,5л (KRWK09)', price: 150},
+   {name: 'Ч-к Elegant Black 1,7л (KRWK08)', price: 150},
+   {name: 'Ч-к Elegant Inox 1,7л (KRWK07)', price: 150},
+   {name: 'Ч-к Stahl Black 1,7л (KRWK03)', price: 150},
+   {name: 'Ч-к Stahl Inox 1,7л (KRWK06)', price: 150},
+   {name: 'Бл-р Stationärer Mixer 1000W', price: 150},
+   {name: 'Бл-р 5-in-1-Stabmixer 1200W', price: 300},
+   {name: 'Бл-р 7-in-1-Multistabmixer 1500W', price: 300},
+   {name: 'М-руб Wolf Black 1000W', price: 200},
+   {name: 'М-руб Wolf Metall 1800W', price: 400},
+   {name: 'Тостер Digitaler Black', price: 150},
+   {name: 'Тостер Digitaler Inox', price: 150},
+   {name: 'Тостер Stahl Black', price: 150},
+   {name: 'Тостер Stahl Inox', price: 150},
+   {name: 'Коф-ка EXPRESSO KREM01 INOX', price: 200}
 ];
  
