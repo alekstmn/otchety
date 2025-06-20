@@ -264,9 +264,9 @@ const getObjGoodDivTwo = event => {
 
 
 const removeGoodDiv = event => {
-   if(event.target.tagName !="LI") return;
+   if(event.target.tagName !="SPAN") return;
    let target = event.target;
-   target.remove();
+   target.parentElement.remove();
    ARR_KRONA = [];
    [...liveKrona].forEach(item => {
       let val = createObj(item);
@@ -277,9 +277,9 @@ const removeGoodDiv = event => {
 };
 
 const removeGoodDivTwo = event => {
-   if(event.target.tagName !="LI") return;
+   if(event.target.tagName !="SPAN") return;
    let target = event.target;
-   target.remove();
+   target.parentElement.remove();
    ARR_KONIGIN = [];
    [...liveKonigin].forEach(item => {
       let val = createObj(item);
