@@ -39,6 +39,7 @@ export const hoods = [
    {name: 'KAMILLA RETRO 600 BLACK', price: 250},
    {name: 'KAMILLA slim 600 INOX ( 2 мотора)', price: 250},
    {name: 'Kamilla slim 600 inox/inox (2 мотора)', price: 250},
+   {name: 'Kamilla slim 600 black/inox (2 мотора)', price: 250},
    {name: 'Kamilla slim 600 ivory (2 мотора)', price: 250}, 
    {name: 'Kamilla slim 600 white (2 мотора)', price: 250},
    {name: 'KAMILLA T 600 BLACK', price: 250},
