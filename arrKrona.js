@@ -304,6 +304,7 @@ export const mbt = [
    {name: 'Тостер Digitaler Inox', price: 150},
    {name: 'Тостер Stahl Black', price: 150},
    {name: 'Тостер Stahl Inox', price: 150},
-   {name: 'Коф-ка EXPRESSO KREM01 INOX', price: 200}
+   {name: 'Коф-ка EXPRESSO KREM01 INOX', price: 200},
+   {name: 'Суш-ка Dorrautomat Black', price: 300}
 ];
  
