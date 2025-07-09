@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="Ru-ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="favicon.svg" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+   <title>Отчет</title>
+</head>
+<body>
+   <div class="wrapper">
+      
+         <h2 class="title">
+            <img src="./krona.svg" alt="krona">
+         </h2>
+         <div class="selectes selectes-krona">
+            <div class="selectes-item" data-type="hoods">
+               <button>вытяжки</button>
+               <ul class="hoods">
+   
+               </ul>
+            </div>
+   
+            <div class="selectes-item" data-type="varki">
+               <button>варочные поверхности</button>
+               <ul class="varki"></ul>
+            </div>
+          
+            <div class="selectes-item" data-type="duhovki">
+               <button>духовые шкафы</button>
+               <ul class="duhovki"></ul>
+            </div>
+            
+           
+            <div class="selectes-item" data-type="stirki">
+               <button>стиральные машины</button>
+               <ul class="stirki"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="pmm">
+               <button>посудомоечные машины</button>
+               <ul class="pmms"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="holodAndSuchMachinas">
+               <button>холодильники/суш. машины</button>
+               <ul class="holandsuchmachins"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="vstrsvch">
+               <button>СВЧ встраиваемые</button>
+               <ul class="vstrsvchs"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="svch">
+               <button>СВЧ отдельностоящие</button>
+               <ul class="svchs"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="pechi">
+               <button>мини-печи</button>
+               <ul class="pechi"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="chainiki">
+               <button>Чайники</button>
+               <ul class="chainiki"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="blendery">
+               <button>Блендеры</button>
+               <ul class="blendery"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="mjasorubki">
+               <button>Мясорубки</button>
+               <ul class="mjasorubki"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="tostery">
+               <button>Тостеры</button>
+               <ul class="tostery"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="kofevarki">
+               <button>Кофеварки</button>
+               <ul class="kofevarki"></ul>
+            </div>
+   
+            <div class="selectes-item" data-type="sushki">
+               <button>Сушки для ов. и фр.</button>
+               <ul class="sushki"></ul>
+            </div>
+            
+           
+         </div>
+         <div class="goods goods-krona" id="kronagoods">
+               <ul class="goods-list goods-list-krona"></ul>
+               <div class="result">
+                  <ul class="result-list result-list-krona"></ul>
+                  <div class="result-bottom result-bottom-krona"></div>
+               </div>
+            
+         </div>
+         <div class="btns btns-krona">
+            <button class="btn btn-clear">очистить</button>
+            <button class="btn btn-dowland" id="sheetjsexport">скачать в exel</button>
+         </div>
+      
+   </div>
+  
+
+
+   <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+   <script type="module" src="./js/app.js"></script>  
+</body>
+</html>
