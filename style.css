@@ -92,7 +92,7 @@ ul, li {
    cursor: pointer;
 }
 .selectes-item ul li:nth-child(even){
-   background-color: grey;
+   background-color: #d7b17896;
 }
 .selectes-item ul.active{
    display: block;
