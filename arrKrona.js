@@ -1,17 +1,4 @@
 export const hoods = [
-   {name: 'Вытяжка AMELI 600 BLACK PB', price: 250},
-   {name: 'Вытяжка Ameli 600 inox PB', price: 250},
-   {name: 'Вытяжка Ameli 600 white S', price: 250},
-   {name: 'Вытяжка Ameli 600 inox S', price: 250},
-   {name: 'Вытяжка AMELI LIGHT 600 INOX PB', price: 250},
-   {name: 'Вытяжка AURA 600 BLACK S', price: 250},
-   {name: 'Вытяжка AURA 600 FRAME BLACK S', price: 250},
-   {name: 'Вытяжка AURA 600 WHITE S', price: 250},
-   {name: 'Вытяжка BELINDA 600 black SGC', price: 250},
-   {name: 'Вытяжка BELINDA 600 white SGC', price: 250},
-   {name: 'Вытяжка BELLA 600 BLACK push button', price: 250},
-   {name: 'Вытяжка BRUNA 600 BLACK S', price: 250},
-   {name: 'Вытяжка FRANZISKA 600 INOX S', price: 250},
    {name: 'Вытяжка FREYA 600 black PB', price: 250},
    {name: 'Вытяжка FREYA 600 white PB', price: 250},
    {name: 'Вытяжка IRIDA 600 black push button', price: 250},
@@ -35,6 +22,9 @@ export const hoods = [
    {name: 'Вытяжка KAMILLA 600 GLASS WHITE', price: 250},
    {name: 'Вытяжка KAMILLA 600 SUPERNOVA B', price: 250},
    {name: 'Вытяжка KAMILLA 600 SUPERNOVA W', price: 250},
+   {name: 'Вытяжка KAMILLA ECO 600 BLACK', price: 250},
+   {name: 'Вытяжка KAMILLA ECO 600 INOX', price: 250},
+   {name: 'Вытяжка KAMILLA ECO 600 WHITE', price: 250},
    {name: 'Вытяжка Kamilla R 600 inox (2 мотора)', price: 250},
    {name: 'Вытяжка KAMILLA RETRO 600 BLACK', price: 250},
    {name: 'Вытяжка KAMILLA slim 600 INOX ( 2 мотора)', price: 250},
@@ -74,15 +64,7 @@ export const hoods = [
    {name: 'Вытяжка RUNA 600 inox S', price: 250},
    {name: 'Вытяжка RUNA 600 ivory PB', price: 250},
    {name: 'Вытяжка RUNA 600 white PB', price: 250},
-   {name: 'Вытяжка RUNA 600 white S', price: 250},
-   {name: 'Вытяжка SVEN 600 black one knob', price: 250},
-   {name: 'Вытяжка SVEN 600 inox one knob', price: 250},
-   {name: 'Вытяжка SVEN 600 white one knob', price: 250},
-   {name: 'Вытяжка TALLI 600 inox/black glass 3P', price: 250},
-   {name: 'Вытяжка VENDY 600 INOX', price: 250},
-   {name: 'Вытяжка VENDY 600 WHITE', price: 250},
-   {name: 'Вытяжка VENERA 600 black PB', price: 250},
-   {name: 'Вытяжка VENERA 600 black S', price: 250}
+   {name: 'Вытяжка RUNA 600 white S', price: 250}
 ];
 
 export const duhovki = [
@@ -240,6 +222,7 @@ export const PMM = [
 export const holodAndSuchMachina = [
    {name: 'Хол-к HANSEL', price: 800},
    {name: 'Хол-к BRISTEN FNF', price: 800},
+   {name: 'Хол-к EISKALT 7970 XD TNF', price: 800},
    {name: 'Мороз-к GRETEL FNF', price: 800}, 
    {name: 'Суш. маш. KRONA RHENE MAX WHITE 8K DM', price: 800}
 ];
