@@ -231,6 +231,22 @@ function createTable(){
    let tbodySection = document.createElement('TBODY');
    table.id = 'TableToExport';
    table.appendChild(tbodySection);
+
+    for(let i = 0; i < 3; i++){
+      let row = document.createElement('tr');
+      let cell1 = document.createElement("td");
+      let cell2 = document.createElement("td");
+      let cell3 = document.createElement("td");
+      i == 1 ? cell1.innerHTML = `ОФЕЛИЯ, ул.Кирова 63, отчет за июль 2025
+      ` : cell1.innerHTML = `&nbsp;`;
+      cell2.innerHTML = `&nbsp;`;
+      cell3.innerHTML = `&nbsp;`;
+      row.appendChild(cell1);
+      row.appendChild(cell2);
+      row.appendChild(cell3);
+      tbodySection.appendChild(row);
+   };
+   
    [...resKronaLi].forEach(item => {
       let row = document.createElement('tr');
       let cell1 = document.createElement("td");
@@ -294,7 +310,7 @@ function printExel() {
    createTable(resKronaLi)
    var wb = XLSX.utils.table_to_book(document.getElementById("TableToExport"));
   
-   XLSX.writeFile(wb, "otchet11.xlsx");
+   XLSX.writeFile(wb, "otchet_kirov.xlsx");
  }
 
 btnDowlandKrona.addEventListener("click", printExel)
