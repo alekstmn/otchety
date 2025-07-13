@@ -310,7 +310,7 @@ function printExel() {
    createTable(resKronaLi)
    var wb = XLSX.utils.table_to_book(document.getElementById("TableToExport"));
   
-   XLSX.writeFile(wb, "otchet_kirov.xlsx");
+   XLSX.writeFile(wb, "otchet_krona_kirov.xlsx");
  }
 
 btnDowlandKrona.addEventListener("click", printExel)
