@@ -222,7 +222,7 @@ export const PMM = [
 export const holodAndSuchMachina = [
    {name: 'Хол-к HANSEL', price: 800},
    {name: 'Хол-к BRISTEN FNF', price: 800},
-   {name: 'Хол-к EISKALT 7970 XD TNF', price: 800},
+   {name: 'Хол-к EISKALT 7970 XD TNF GLASS BL', price: 800},
    {name: 'Мороз-к GRETEL FNF', price: 800}, 
    {name: 'Суш. маш. KRONA RHENE MAX WHITE 8K DM', price: 800}
 ];
