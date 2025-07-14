@@ -184,6 +184,7 @@ export const varki = [
 {name: 'Вар. пов-ть ORSA 60 BL', price: 400},
 {name: 'Вар. пов-ть ORSA 60 BL/S', price: 400},
 {name: 'Вар. пов-ть ORSA 60 WH', price: 400},
+{name: 'Вар. пов-ть ORTICA 60 WH', price: 400},
 {name: 'Вар. пов-ть RITTER 67/60 BL', price: 400},
 {name: 'Вар. пов-ть RITTER 67/60 WH', price: 400},
 {name: 'Вар. пов-ть STORNO 60 BL', price: 400},
