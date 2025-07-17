@@ -25,6 +25,8 @@ export const hoods = [
    {name: 'Вытяжка KAMILLA ECO 600 BLACK', price: 250},
    {name: 'Вытяжка KAMILLA ECO 600 INOX', price: 250},
    {name: 'Вытяжка KAMILLA ECO 600 WHITE', price: 250},
+   {name: 'Вытяжка KAMILLA RETRO 600 BLACK', price: 250},
+   {name: 'Вытяжка KAMILLA RETRO 600 IVORY', price: 250},
    {name: 'Вытяжка Kamilla R 600 inox (2 мотора)', price: 250},
    {name: 'Вытяжка KAMILLA RETRO 600 BLACK', price: 250},
    {name: 'Вытяжка KAMILLA slim 600 INOX ( 2 мотора)', price: 250},
