@@ -125,7 +125,7 @@ export const duhovki = [
 {name: 'Дух. шкаф SONATA 45 BL', price: 600},
 {name: 'Дух. шкаф TAU 60 BL', price: 600},
 {name: 'Дух. шкаф UNIVERSUM 60 WH', price: 600},
-{name: 'Дух. шкаф UNIVERSUM 60 BL', price: 600}
+{name: 'Дух. шкаф UNIVERSUM 60 BL/BL', price: 600}
 ];
 
 
