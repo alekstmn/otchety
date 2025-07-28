@@ -130,10 +130,12 @@ export const duhovki = [
 
 
 export const varki = [
-{name: 'Вар. пов-ть ACCORDO 60 BL', price: 400}, 
+{name: 'Вар. пов-ть ACCORDO 60 BL', price: 400},
+{name: 'Вар. пов-ть ALMA 60 BL', price: 400}, 
 {name: 'Вар. пов-ть ARDENTE 60 WH', price: 400},
 {name: 'Вар. пов-ть ARDENTE 60 BL', price: 400},
 {name: 'Вар. пов-ть ARDENTE 60 IV', price: 400},
+{name: 'Вар. пов-ть ARMONIA 60 BL', price: 400}, 
 {name: 'Вар. пов-ть BRILLARE 60 BL', price: 400},
 {name: 'Вар. пов-ть CALORE 30 WH', price: 400},
 {name: 'Вар. пов-ть CALORE 30 BL', price: 400},
