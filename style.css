@@ -284,7 +284,6 @@ table tr td{
    padding: 5px;
    border: 1px solid red;
    border-collapse: collapse;
-   border-collapse: collapse;
    background-color: green;
 }
 
@@ -334,3 +333,4 @@ table tr td{
       font-size: 24px;
    }
 }
+
