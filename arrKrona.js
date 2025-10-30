@@ -7,6 +7,7 @@ export const hoods = [
    {name: 'Вытяжка IRIDA 600 white sensor', price: 250},
    {name: 'Вытяжка IRMA A 600 white S', price: 250},
    {name: 'Вытяжка IRMA A 600 black S', price: 250},
+   {name: 'Вытяжка IRMA A 600 black PB', price: 250},
    {name: 'Вытяжка IRMA A 600 white PB', price: 250},
    {name: 'Вытяжка KAMILLA 450 BLACK', price: 250},
    {name: 'Вытяжка KAMILLA 450 INOX', price: 250},
@@ -313,5 +314,6 @@ export const kofevarki = [
 export const sushki = [
    {name: 'Сушилка Dorrautomat Black', price: 300}
 ];
+
 
 
