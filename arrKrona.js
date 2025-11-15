@@ -5,6 +5,7 @@ export const hoods = [
    {name: 'Вытяжка IRIDA 600 black sensor', price: 250},
    {name: 'Вытяжка IRIDA 600 white push button', price: 250},
    {name: 'Вытяжка IRIDA 600 white sensor', price: 250},
+   {name: 'Вытяжка IRMA 600 black S', price: 250},
    {name: 'Вытяжка IRMA A 600 white S', price: 250},
    {name: 'Вытяжка IRMA A 600 black S', price: 250},
    {name: 'Вытяжка IRMA A 600 black PB', price: 250},
@@ -12,6 +13,7 @@ export const hoods = [
    {name: 'Вытяжка KAMILLA 450 BLACK', price: 250},
    {name: 'Вытяжка KAMILLA 450 INOX', price: 250},
    {name: 'Вытяжка KAMILLA 450 WHITE', price: 250},
+   {name: 'Вытяжка KAMILLA 500 AIR 1W', price: 250},
    {name: 'Вытяжка KAMILLA 500 BROWN', price: 250},
    {name: 'Вытяжка KAMILLA 500 WHITE', price: 250},
    {name: 'Вытяжка KAMILLA 500 BLACK', price: 250},
@@ -122,6 +124,7 @@ export const duhovki = [
 {name: 'Дух. шкаф PRONTO 60 BL G2', price: 600},
 {name: 'Дух. шкаф QUENDEL 60 BL/S', price: 600},
 {name: 'Дух. шкаф RATSEL 45H BL/BL', price: 600},
+{name: 'Дух. шкаф REGINA 60 BL', price: 600},
 {name: 'Дух. шкаф RITUS 45 WH', price: 600},
 {name: 'Дух. шкаф RITUS 45 BL', price: 600},
 {name: 'Дух. шкаф ROMANA 60 BL', price: 600},
@@ -186,6 +189,8 @@ export const varki = [
 {name: 'Вар. пов-ть MYSTERIUM max ih 30 GR', price: 400},
 {name: 'Вар. пов-ть MYSTERIUM max ih 60 GR', price: 400},
 {name: 'Вар. пов-ть MYSTERIUM gh 60 GR', price: 400},
+{name: 'Вар. пов-ть NEBEL 60 IX W', price: 400},
+{name: 'Вар. пов-ть NEBEL 60 WH W', price: 400},
 {name: 'Вар. пов-ть OMBRA 45 BL', price: 400},
 {name: 'Вар. пов-ть ONYX ih 60 BL', price: 400},
 {name: 'Вар. пов-ть ORSA 60 BL', price: 400},
@@ -316,6 +321,7 @@ export const kofevarki = [
 export const sushki = [
    {name: 'Сушилка Dorrautomat Black', price: 300}
 ];
+
 
 
 
