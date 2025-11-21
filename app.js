@@ -237,7 +237,7 @@ function createTable(){
       let cell1 = document.createElement("td");
       let cell2 = document.createElement("td");
       let cell3 = document.createElement("td");
-      i == 1 ? cell1.innerHTML = `ОФЕЛИЯ, ул.Кирова 63, отчет за август 2025
+      i == 1 ? cell1.innerHTML = `Отчет за ______ 202_
       ` : cell1.innerHTML = `&nbsp;`;
       cell2.innerHTML = `&nbsp;`;
       cell3.innerHTML = `&nbsp;`;
@@ -315,4 +315,5 @@ function printExel() {
 
 btnDowlandKrona.addEventListener("click", printExel)
 btnClearKrona.addEventListener("click", clearResultKrona);
+
 
