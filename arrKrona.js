@@ -55,6 +55,8 @@ export const hoods = [
    {name: 'Вытяжка KATE 600 INOX PB K', price: 250},
    {name: 'Вытяжка KATE 600 GLASS BLACK PB K', price: 250},
    {name: 'Вытяжка KATE 600 GLASS WHITE PB K', price: 250},
+   {name: 'Вытяжка KERRY 600 BLACK PB V2', price: 250},
+   {name: 'Вытяжка KERRY E 600 INOX PB V2', price: 250},
    {name: 'Вытяжка KERRY E 600 WHITE PB', price: 250},
    {name: 'Вытяжка KRISTEN A 600 white S', price: 250},
    {name: 'Вытяжка Liora 600 ivory S', price: 250},
@@ -202,7 +204,9 @@ export const varki = [
 {name: 'Вар. пов-ть STORNO 60 BL', price: 400},
 {name: 'Вар. пов-ть TELLER 60 BL/S K', price: 400},
 {name: 'Вар. пов-ть TERZO 60 BL', price: 400},
-{name: 'Вар. пов-ть TORDO 45 IX', price: 400}
+{name: 'Вар. пов-ть TORDO 45 IX', price: 400},
+{name: 'Вар. пов-ть ZAUBER 60 BL TK', price: 400},
+{name: 'Вар. пов-ть ZAUBER 60 BL 1DZTK', price: 400}
 ];
 
 export const stirki =[
@@ -321,6 +325,7 @@ export const kofevarki = [
 export const sushki = [
    {name: 'Сушилка Dorrautomat Black', price: 300}
 ];
+
 
 
 
