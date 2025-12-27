@@ -127,6 +127,7 @@ export const duhovki = [
 {name: 'Дух. шкаф QUENDEL 60 BL/S', price: 600},
 {name: 'Дух. шкаф RATSEL 45H BL/BL', price: 600},
 {name: 'Дух. шкаф REGINA 60 BL', price: 600},
+{name: 'Дух. шкаф REGINA 60 WH', price: 600},
 {name: 'Дух. шкаф RITUS 45 WH', price: 600},
 {name: 'Дух. шкаф RITUS 45 BL', price: 600},
 {name: 'Дух. шкаф ROMANA 60 BL', price: 600},
@@ -152,6 +153,7 @@ export const varki = [
 {name: 'Вар. пов-ть CALORE 60 IX', price: 400},
 {name: 'Вар. пов-ть CALORE 60 WH', price: 400},
 {name: 'Вар. пов-ть CORTESIA 60 BL', price: 400}, 
+{name: 'Вар. пов-ть CORNIOLA 45 BL', price: 400},
 {name: 'Вар. пов-ть CORNIOLA 60 WH', price: 400}, 
 {name: 'Вар. пов-ть CORNIOLA 60 BL', price: 400},
 {name: 'Вар. пов-ть ETERNO 30 BL', price: 400},
@@ -325,6 +327,7 @@ export const kofevarki = [
 export const sushki = [
    {name: 'Сушилка Dorrautomat Black', price: 300}
 ];
+
 
 
 
