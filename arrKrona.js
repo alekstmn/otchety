@@ -81,7 +81,8 @@ export const duhovki = [
 {name: 'Дух. шкаф ADRIANO 60 WH G2', price: 600},
 {name: 'Дух. шкаф ALPHA 60 WH', price: 600},
 {name: 'Дух. шкаф ARADEO 60 WH', price: 600},
-{name: 'Дух. шкаф ATTIMO 60 S', price: 600}, 
+{name: 'Дух. шкаф ATTIMO 60 S', price: 600},
+{name: 'Дух. шкаф BELCANTO 60 IX', price: 600},
 {name: 'Дух. шкаф BETA 60 BL', price: 600},
 {name: 'Дух. шкаф BETA 60 IX', price: 600},
 {name: 'Дух. шкаф BIRNE 60 BL', price: 600},
@@ -327,6 +328,7 @@ export const kofevarki = [
 export const sushki = [
    {name: 'Сушилка Dorrautomat Black', price: 300}
 ];
+
 
 
 
