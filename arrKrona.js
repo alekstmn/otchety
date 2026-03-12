@@ -73,7 +73,8 @@ export const hoods = [
    {name: 'Вытяжка RUNA 600 ivory PB', price: 250},
    {name: 'Вытяжка RUNA 600 white PB', price: 250},
    {name: 'Вытяжка RUNA 600 white S', price: 250},
-   {name: 'Вытяжка SELINA 600 GLASS BLACK S', price: 250}
+   {name: 'Вытяжка SELINA 600 GLASS BLACK S', price: 250},
+   {name: 'Вытяжка TINA 350 BLACK 3P', price: 250}
 ];
 
 export const duhovki = [
@@ -328,6 +329,7 @@ export const kofevarki = [
 export const sushki = [
    {name: 'Сушилка Dorrautomat Black', price: 300}
 ];
+
 
 
 
