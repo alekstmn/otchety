@@ -96,6 +96,7 @@ ul, li {
 }
 .selectes-item ul.active{
    display: block;
+   width: 400px;
 }
 
 .goods{
