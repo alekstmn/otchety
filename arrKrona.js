@@ -280,7 +280,8 @@ export const vstrsvch = [
 {name: 'Встр. СВЧ REIN 60 WH', price: 400},
 {name: 'Встр. СВЧ RIFLESSO 60 BL', price: 400},
 {name: 'Встр. СВЧ RIFLESSO 60 BL V2', price: 400},
-{name: 'Встр. СВЧ RIFLESSO 60 WH V2', price: 400}
+{name: 'Встр. СВЧ RIFLESSO 60 WH V2', price: 400},
+{name: 'Встр. СВЧ WINDEN 60 BL', price: 400}
 ];
 
 export const svch = [
