@@ -165,6 +165,7 @@ export const varki = [
 {name: 'Вар. пов-ть CORNIOLA 45 BL', price: 400},
 {name: 'Вар. пов-ть CORNIOLA 60 WH', price: 400}, 
 {name: 'Вар. пов-ть CORNIOLA 60 BL', price: 400},
+{name: 'Вар. пов-ть EDEL 60BL TK', price: 400},
 {name: 'Вар. пов-ть ETERNO 30 BL', price: 400},
 {name: 'Вар. пов-ть ETERNO 60 BL', price: 400},
 {name: 'Вар. пов-ть FARBE 60 BL', price: 400},
@@ -239,15 +240,16 @@ export const PMM = [
    {name: 'Посуд-м. маш. DELIA 45 BI', price: 600}, 
    {name: 'Посуд-м. маш. DELIA 60 BI', price: 600},
    {name: 'Посуд-м. маш. KAMAYA 45 BI', price: 600},
-   {name: 'Посуд-м. маш. KAMAYA 60 BI', price: 600},
-   {name: 'Посуд-м. маш. KASKATA 45 BI', price: 600},
-   {name: 'Посуд-м. маш. KASKATA 60 BI', price: 600},
-   {name: 'Посуд-м. маш. MARTINA 45 BI', price: 600},
-   {name: 'Посуд-м. маш. MARTINA 60 BI', price: 600},
+   {name: 'Посуд-м. маш. KAMAYA 60 BI V2', price: 600},
+   {name: 'Посуд-м. маш. KASKATA 45 BI V2', price: 600},
+   {name: 'Посуд-м. маш. KASKATA 60 BI V2', price: 600},
+   {name: 'Посуд-м. маш. LUMERA 45 BI V2', price: 600},
+   {name: 'Посуд-м. маш. MARTINA 45 BI V2', price: 600},
+   {name: 'Посуд-м. маш. MARTINA 60 BI V2', price: 600},
    {name: 'Посуд-м. маш. RIVA 45 FS BL', price: 600},
    {name: 'Посуд-м. маш. RIVA 45 FS METAL', price: 600},
-   {name: 'Посуд-м. маш. WESPA 45 BI', price: 600},
-   {name: 'Посуд-м. маш. WESPA 60 BI', price: 600}
+   {name: 'Посуд-м. маш. WESPA 45 BI V2', price: 600},
+   {name: 'Посуд-м. маш. WESPA 60 BI V2', price: 600}
 ];
 
 export const holodAndSuchMachina = [
@@ -281,7 +283,6 @@ export const vstrsvch = [
 {name: 'Встр. СВЧ RAUM 60 S', price: 400},
 {name: 'Встр. СВЧ REIN 60 BL', price: 400},
 {name: 'Встр. СВЧ REIN 60 WH', price: 400},
-{name: 'Встр. СВЧ RIFLESSO 60 BL', price: 400},
 {name: 'Встр. СВЧ RIFLESSO 60 BL V2', price: 400},
 {name: 'Встр. СВЧ RIFLESSO 60 WH V2', price: 400},
 {name: 'Встр. СВЧ WINDEN 60 BL', price: 400}
