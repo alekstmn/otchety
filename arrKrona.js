@@ -55,6 +55,7 @@ export const hoods = [
    {name: 'Вытяжка KAMILLA T sensor max 600 Black', price: 250},
    {name: 'Вытяжка KAMILLA T sensor max 600 Inox', price: 250},
    {name: 'Вытяжка KAMILLA T sensor max 600 White', price: 250},
+   {name: 'Вытяжка KAMILLA TK 600 BLACK', price: 250},
    {name: 'Вытяжка KAMILLA TK 600 INOX', price: 250},
    {name: 'Вытяжка KAMILLA TK 600 WHITE', price: 250},
    {name: 'Вытяжка KATE 600 BLACK PB K', price: 250},
